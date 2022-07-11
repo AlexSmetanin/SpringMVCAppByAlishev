@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2424e4f2-a74e-4f96-a7b4-4a4d03f58e68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/calculator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/chpt/springcourse/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/chpt/springcourse/controllers/FirstController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,29 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/chpt/springcourse/controllers/FirstController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" column="96" lean-forward="true" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="96" />
-              <folding>
-                <element signature="e#1031#1032#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,7 +35,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Urok_17" />
+        <entry key="$PROJECT_DIR$" value="Urok_19" />
       </map>
     </option>
   </component>
@@ -71,11 +50,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/edu/chpt/springcourse/config/MySpringMvcDispatcherServletInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/second/exit.html" />
         <option value="$PROJECT_DIR$/src/main/java/ua/edu/chpt/springcourse/controllers/SecondController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/edu/chpt/springcourse/controllers/FirstController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/chpt/springcourse/controllers/FirstController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/calculator.html" />
       </list>
     </option>
   </component>
@@ -107,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,13 +187,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1657357135690" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1657547826051" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -320,7 +300,8 @@
       <workItem from="1657203186913" duration="108000" />
       <workItem from="1657274136384" duration="7020000" />
       <workItem from="1657347438305" duration="3998000" />
-      <workItem from="1657523643977" duration="4916000" />
+      <workItem from="1657523643977" duration="5026000" />
+      <workItem from="1657545983887" duration="1907000" />
     </task>
     <task id="LOCAL-00001" summary="Урок 15 сделано и работает.">
       <created>1657278048868</created>
@@ -343,17 +324,23 @@
       <option name="project" value="LOCAL" />
       <updated>1657357119930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Spring Framework. Урок 19: Параметры GET запроса. Аннотация @RequestParam.">
+      <created>1657542755025</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657542755025</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20949000" />
+    <option name="totallyTimeSpent" value="22876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26606685" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2692802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -363,7 +350,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293011" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293011" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,7 +382,8 @@
     <MESSAGE value="Урок 15 сделано и работает." />
     <MESSAGE value="Spring Framework. Урок 16: Spring MVC. Конфигурация с помощью Java кода." />
     <MESSAGE value="Spring Framework. Урок 17: Контроллеры. Аннотация @Controller." />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Framework. Урок 17: Контроллеры. Аннотация @Controller." />
+    <MESSAGE value="Spring Framework. Урок 19: Параметры GET запроса. Аннотация @RequestParam." />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Framework. Урок 19: Параметры GET запроса. Аннотация @RequestParam." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" />
@@ -410,13 +398,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/chpt/springcourse/controllers/SecondController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -455,20 +436,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/chpt/springcourse/controllers/FirstController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="96" lean-forward="true" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="96" />
+        <state relative-caret-position="346">
+          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
           <folding>
-            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/calculator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="119">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
         </state>
       </provider>
     </entry>
